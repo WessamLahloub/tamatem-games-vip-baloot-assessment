@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-20T22:20:10 GMT+03:00" name="Surefire suite" finished-at="2025-09-20T22:21:08 GMT+03:00" duration-ms="58410">
+    <groups>
+    </groups>
+    <test started-at="2025-09-20T22:20:10 GMT+03:00" name="Surefire test" finished-at="2025-09-20T22:21:08 GMT+03:00" duration-ms="58410">
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BaseTest@3e2e18f2]" started-at="2025-09-20T22:20:10 GMT+03:00" name="setup" finished-at="2025-09-20T22:20:20 GMT+03:00" duration-ms="10802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testChatFeature()[pri:0, instance:tests.BaseTest@3e2e18f2]" started-at="2025-09-20T22:20:20 GMT+03:00" name="testChatFeature" description="check chat feature is working fine" finished-at="2025-09-20T22:21:08 GMT+03:00" duration-ms="47037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChatFeature -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.BaseTest@3e2e18f2]" started-at="2025-09-20T22:21:08 GMT+03:00" name="teardown" finished-at="2025-09-20T22:21:08 GMT+03:00" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.BaseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
